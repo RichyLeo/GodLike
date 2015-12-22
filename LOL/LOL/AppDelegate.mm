@@ -101,6 +101,7 @@
     //set AppKey and AppSecret
     [UMessage startWithAppkey:KEY_UMMESSAGE launchOptions:launchOptions];
     
+    //ios大于等于8.1
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_8_1
     if(__IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_8_1)
     {
